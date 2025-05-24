@@ -47,14 +47,17 @@
 
 
     <title>finatikle</title>
-    <link rel="icon" href="https://atikle.github.io/resource/icon.png" type="image/x-icon">
+    <link rel="icon" href="https://atikle.github.io/resource/atikle-icon.png" type="image/x-icon">
 
     <link rel="stylesheet" href="https://atikle.github.io/finatikle/finatikle.css">
-    <link rel="stylesheet" href="https://atikle.github.io/resource/footer-1-multicolor/footer.css">
 
-    <style>
-
-    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+            // Ensure the path is correct relative to your HTML files
+            $("#footer-placeholder").load("https://atikle.github.io/framework/footer-1/index.html");
+        });
+    </script>
 
 </head>
 
@@ -102,7 +105,7 @@
     <div class="div-1">
 
         <font class="heading-1">
-            <font class="daily">fin</font><font class="atikle">atikle</font>
+            <font class="fin">fin</font><font class="atikle">atikle</font>
         </font>
 
         <br>
@@ -112,8 +115,8 @@
 
     </div>
 
-    <div class="atikle-container">
-
+    <div class="finatikle-container">
+        
         <div class="row">
 
             <div class="column">
@@ -474,15 +477,7 @@
 
     </div>
 
-    <footer>
-
-        <div class="footer-container-1">
-            <img src="https://atikle.github.io/resource/icon.png" style="width: 60px;" alt="">
-            <br>
-            <font class="atikle" style="font-size: 25px; font-weight: 600;">atikle.</font>
-        </div>
-
-    </footer>
+    <div id="footer-placeholder"></div>
 
 </body>
 
