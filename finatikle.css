@@ -49,6 +49,8 @@ a {
 .finatikle-container {
     margin-top: 50px;
     padding-bottom: 50px;
+    max-width: 1600px;
+    margin: auto;
 }
 
 .row {
