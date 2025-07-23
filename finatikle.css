@@ -17,11 +17,6 @@ a {
     color: black;
 }
 
-::selection {
-    color: silver;
-    background: transparent;
-}
-
 
 
 .heading-1 {
@@ -42,12 +37,6 @@ a {
     color: black;
     background-color: #98d9e1;
     background-image: linear-gradient(315deg, #98d9e1 0%, #d6aed6 74%);
-}
-
-.fixed-width-container {
-    width: 100%;
-    max-width: 1650px;
-    margin: auto;
 }
 
 
