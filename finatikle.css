@@ -1,14 +1,14 @@
-body,
-html {
+body {
     width: 100%;
+    height: 100%;
     margin: 0;
+    top: 0;
+    border: 0;
+    color: var(--text-primary);
+    background-color: var(--body-background-1);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #e9ecef;
-    color: black;
     font-family: 'Poppins', sans-serif;
-    border: 0;
-    top: 0;
 }
 
 a {
@@ -64,7 +64,7 @@ a {
     max-width: 900px;
     /* padding: 5px 5px; */
     border-radius: 20px;
-    background-color: #f8f9fa;
+    background-color: var(--card-background);
 }
 
 .column-content {
