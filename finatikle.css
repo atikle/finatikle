@@ -14,7 +14,7 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
-    color: black;
+    color: var(--text-primary);
 }
 
 
@@ -86,13 +86,13 @@ a {
 }
 
 .column-text {
-    color: var(--text-secondary);
+    color: var(--text-primary);
     font-size: 17px;
     padding: 15px 5px;
 }
 
 .column-date {
-    color: silver;
+    color: gray;
     font-weight: 700;
     padding: 20px 0px;
 }
@@ -129,8 +129,8 @@ a {
     height: 40px;
     font-size: 20px;
     font-weight: 900;
-    color: black;
-    background-color: white;
+    color: var(--secondary-button-text);
+    background-color: var(--secondary-button-bg);
     border: 0px;
     border-radius: 10px;
     margin: auto;
@@ -138,17 +138,17 @@ a {
 }
 
 .page-switch-button:hover {
-    background-color: whitesmoke;
+    background-color: gray;
 }
 
 .inactive {
-    color: silver;
+    color: gray;
     cursor: default;
 }
 
 .inactive:hover {
-    color: silver;
-    background-color: white;
+    color: gray;
+    background-color: var(--secondary-button-bg);
 }
 
 .month-name {
@@ -157,13 +157,13 @@ a {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
-    color: black;
-    background-color: white;
+    color: var(--secondary-button-text);
+    background-color: var(--secondary-button-bg);
     border: 0px;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .month-name:hover {
-    background-color: whitesmoke;
+    background-color: gray;
 }
