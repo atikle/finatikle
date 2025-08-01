@@ -65,7 +65,6 @@ a {
     /* padding: 5px 5px; */
     border-radius: 20px;
     background-color: var(--card-background);
-    box-shadow:  var( --shadow-1);
 }
 
 .column-content {
@@ -136,7 +135,6 @@ a {
     border-radius: 10px;
     margin: auto;
     cursor: pointer;
-    box-shadow: var( --shadow-1);
 }
 
 .page-switch-button:hover {
@@ -164,7 +162,6 @@ a {
     border: 0px;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: var( --shadow-1);
 }
 
 .month-name:hover {
