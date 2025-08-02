@@ -138,6 +138,11 @@ a {
     cursor: pointer;
 }
 
+.page-switch-button:focus {
+    color: var(--secondary-button-text);
+    background-color: var(--secondary-button-bg);
+}
+
 .page-switch-button:hover {
     background-color: gray;
 }
@@ -152,7 +157,7 @@ a {
     background-color: var(--secondary-button-bg);
 }
 
-.month-name {
+/* .month-name {
     height: 30px;
     padding: 5px 30px;
     text-align: center;
@@ -163,6 +168,22 @@ a {
     border: 0px;
     border-radius: 10px;
     cursor: pointer;
+} */
+.month-name {
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--secondary-button-text);
+    background-color: var(--secondary-button-bg);
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.month-name:focus {
+    color: var(--secondary-button-text);
+    background-color: var(--secondary-button-bg);
 }
 
 .month-name:hover {
