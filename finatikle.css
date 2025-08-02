@@ -4,8 +4,8 @@ body {
     margin: 0;
     top: 0;
     border: 0;
-    color: var(--text-primary);
-    background-color: var(--body-background-2);
+    color: var(--text-color-1);
+    background-color: var(--background-2);
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Poppins', sans-serif;
@@ -14,7 +14,7 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
-    color: var(--text-primary);
+    color: var(--text-color-1);
 }
 
 
@@ -64,7 +64,7 @@ a {
     max-width: 900px;
     /* padding: 5px 5px; */
     border-radius: 20px;
-    background-color: var(--card-background);
+    background-color: var(--card-background-1);
     box-shadow: var(--shadow-1);
 }
 
@@ -80,14 +80,14 @@ a {
 }
 
 .column-heading {
-    color: var(--text-primary);
+    color: var(--text-color-1);
     font-size: 20px;
     font-weight: 900;
     padding: 15px 0px;
 }
 
 .column-text {
-    color: var(--text-primary);
+    color: var(--text-color-1);
     font-size: 17px;
     padding: 15px 5px;
 }
