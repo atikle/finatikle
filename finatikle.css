@@ -136,11 +136,7 @@ a {
     border-radius: 10px;
     margin: auto;
     cursor: pointer;
-}
-
-.page-switch-button:focus {
-    color: var(--secondary-button-text);
-    background-color: var(--secondary-button-bg);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .page-switch-button:hover {
@@ -168,6 +164,7 @@ a {
     border: 0px;
     border-radius: 10px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 } */
 .month-name {
     padding: 10px 30px;
@@ -179,11 +176,7 @@ a {
     border: 0px;
     border-radius: 10px;
     cursor: pointer;
-}
-
-.month-name:focus {
-    color: var(--secondary-button-text);
-    background-color: var(--secondary-button-bg);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .month-name:hover {
