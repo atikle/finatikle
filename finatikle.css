@@ -15,6 +15,7 @@ a {
     text-decoration: none;
     cursor: pointer;
     color: var(--text-color-1);
+    -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile */
 }
 
 
